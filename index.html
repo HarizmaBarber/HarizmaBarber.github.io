@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Харизма | Барбершоп в Самаре</title>
+  <meta name="description" content="Барбершоп Харизма в Самаре, ул. Маршала Устинова 40А. Мужские стрижки, оформление бороды, тонирование. Ежедневно 9:00–21:00.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-scissors">✂</div>
+    <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+  </div>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Харизма</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-icon">✂</div>
+      <p class="hero-label">Барбершоп в Самаре</p>
+      <h1 class="hero-title"><span>Харизма</span></h1>
+      <p class="hero-subtitle">ул. Маршала Устинова, 40А, Самара</p>
+      <p class="hero-address">Telegram: @HarizmaBarberBot</p>
+      <p class="hero-hours">Ежедневно 9:00 – 21:00</p>
+      <div class="hero-buttons">
+        <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary">Записаться</a>
+        <a href="services.html" class="btn btn-secondary">Услуги и цены</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Листайте</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-icon">⭐</div>
+          <div class="stat-number" data-target="1000" data-suffix="+">0</div>
+          <div class="stat-label">Положительных отзывов</div>
+          <div class="stat-sparkle"></div>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <div class="stat-icon">📅</div>
+          <div class="stat-number" data-target="5" data-suffix=" лет">0</div>
+          <div class="stat-label">Успешной работы</div>
+          <div class="stat-sparkle"></div>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <div class="stat-icon">🚶</div>
+          <div class="stat-text">Без записи</div>
+          <div class="stat-label">Приходите в любое время</div>
+          <div class="stat-sparkle"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-text reveal" style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h2>Добро <span>пожаловать</span></h2>
+        <p>
+          Харизма — это не просто барбершоп. Это место, где мужская стрижка становится искусством.
+          Мы знаем, как подчеркнуть ваш стиль и создать образ, который будет работать на вас.
+        </p>
+        <p>
+          За плечами мастера Баходира — годы опыта и сотни довольных клиентов.
+          Индивидуальный подход к каждому, качественные материалы и инструменты,
+          атмосфера настоящего мужского клуба.
+        </p>
+        <div class="about-features" style="justify-content: center;">
+          <div class="about-feature">
+            <span class="icon"></span>
+            Индивидуальный подход
+          </div>
+          <div class="about-feature">
+            <span class="icon"></span>
+            Профессиональные средства
+          </div>
+          <div class="about-feature">
+            <span class="icon"></span>
+            Удобное расположение
+          </div>
+          <div class="about-feature">
+            <span class="icon"></span>
+            Работаем без выходных
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reviews-section">
+    <div class="container">
+      <h2 class="section-title reveal">Отзывы <span>клиентов</span></h2>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+
+      <div class="review-form reveal">
+        <h3>Оставить отзыв</h3>
+        <form id="reviewForm">
+          <div class="form-row">
+            <input type="text" id="reviewName" placeholder="Ваше имя" required>
+            <select id="reviewRating">
+              <option value="5">★★★★★</option>
+              <option value="4">★★★★☆</option>
+              <option value="3">★★★☆☆</option>
+              <option value="2">★★☆☆☆</option>
+              <option value="1">★☆☆☆☆</option>
+            </select>
+          </div>
+          <textarea id="reviewText" placeholder="Напишите отзыв..." rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+        </form>
+        <div class="review-form-success" id="reviewSuccess">Спасибо! Ваш отзыв отправлен.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 <span>Харизма</span> | Барбершоп в Самаре</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

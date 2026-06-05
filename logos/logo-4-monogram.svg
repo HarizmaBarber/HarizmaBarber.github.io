@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#0a0a0a" rx="40"/>
+  <!-- Monogram X with scissors -->
+  <g transform="translate(200,160)">
+    <text x="0" y="0" font-family="Raleway, Arial, sans-serif" font-size="120" font-weight="700" text-anchor="middle" fill="#c9a758" dominant-baseline="central" letter-spacing="-8">Х</text>
+    <text x="0" y="52" font-size="36" text-anchor="middle" fill="#c9a758" opacity="0.6" dominant-baseline="central">✂</text>
+  </g>
+  <text x="200" y="245" font-family="Raleway, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6" text-anchor="middle" fill="#c9a758" dominant-baseline="central">ХАРИЗМА</text>
+  <text x="200" y="272" font-family="Raleway, Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="4" text-anchor="middle" fill="#666" dominant-baseline="central">БАРБЕРШОП</text>
+  <line x1="140" y1="290" x2="260" y2="290" stroke="#2a2a2a" stroke-width="1"/>
+</svg>

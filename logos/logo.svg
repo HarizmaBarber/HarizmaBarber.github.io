@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#0a0a0a" rx="40"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#c9a758" stroke-width="2" opacity="0.8"/>
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Barber pole stripes -->
+  <g opacity="0.15">
+    <line x1="120" y1="120" x2="280" y2="280" stroke="#c9a758" stroke-width="4"/>
+    <line x1="100" y1="160" x2="240" y2="300" stroke="#c9a758" stroke-width="4"/>
+    <line x1="160" y1="100" x2="300" y2="240" stroke="#c9a758" stroke-width="4"/>
+  </g>
+  <text x="200" y="170" font-size="52" text-anchor="middle" fill="#c9a758" dominant-baseline="central">✂</text>
+  <text x="200" y="226" font-family="Raleway, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="5" text-anchor="middle" fill="#c9a758" dominant-baseline="central">ХАРИЗМА</text>
+  <text x="200" y="256" font-family="Raleway, Arial, sans-serif" font-size="12" font-weight="400" letter-spacing="4" text-anchor="middle" fill="#888" dominant-baseline="central">САМАРА</text>
+</svg>

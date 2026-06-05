@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#0a0a0a" rx="40"/>
+  <!-- Shield shape -->
+  <path d="M200 55 L300 95 L300 190 C300 270 250 330 200 345 C150 330 100 270 100 190 L100 95 Z" fill="none" stroke="#c9a758" stroke-width="2" opacity="0.9"/>
+  <path d="M200 75 L280 105 L280 185 C280 255 240 310 200 325 C160 310 120 255 120 185 L120 105 Z" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Scissors inside -->
+  <text x="200" y="185" font-size="48" text-anchor="middle" fill="#c9a758" dominant-baseline="central">✂</text>
+  <text x="200" y="235" font-family="Raleway, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4" text-anchor="middle" fill="#c9a758" dominant-baseline="central">ХАРИЗМА</text>
+  <text x="200" y="265" font-family="Raleway, Arial, sans-serif" font-size="11" font-weight="400" letter-spacing="4" text-anchor="middle" fill="#888" dominant-baseline="central">БАРБЕРШОП</text>
+</svg>

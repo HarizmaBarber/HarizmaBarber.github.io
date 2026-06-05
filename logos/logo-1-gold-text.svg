@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#0a0a0a" rx="40"/>
+  <text x="200" y="200" font-family="Raleway, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="8" text-anchor="middle" fill="#c9a758" dominant-baseline="central">ХАРИЗМА</text>
+  <text x="200" y="258" font-family="Raleway, Arial, sans-serif" font-size="16" font-weight="400" letter-spacing="6" text-anchor="middle" fill="#888" dominant-baseline="central">БАРБЕРШОП</text>
+  <line x1="140" y1="278" x2="260" y2="278" stroke="#c9a758" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="140" r="20" fill="none" stroke="#c9a758" stroke-width="1.5" opacity="0.3"/>
+  <text x="200" y="142" font-size="20" text-anchor="middle" fill="#c9a758" opacity="0.5" dominant-baseline="central">✂</text>
+</svg>

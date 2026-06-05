@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты | Харизма Барбершоп</title>
+  <meta name="description" content="Контакты барбершопа Харизма в Самаре. Адрес: ул. Маршала Устинова 40А. Телефон, Instagram, Telegram бот для записи.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-scissors">✂</div>
+    <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+  </div>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Харизма</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="contacts.html" class="active">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Контакты</h1>
+      <p>Как нас найти</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contacts-grid">
+        <div class="contacts-info">
+          <h3>Свяжитесь <span>с нами</span></h3>
+
+          <div class="contact-item reveal">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <strong>Адрес</strong>
+              ул. Маршала Устинова, 40А, Самара
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-1">
+            <div class="contact-icon">⏰</div>
+            <div class="contact-text">
+              <strong>Часы работы</strong>
+              Ежедневно 9:00 – 21:00
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-2">
+            <div class="contact-icon">✂</div>
+            <div class="contact-text">
+              <strong>Мастер</strong>
+              Баходир
+            </div>
+          </div>
+
+          <div class="contact-item reveal reveal-delay-3">
+            <div class="contact-icon">📱</div>
+            <div class="contact-text">
+              <strong>Telegram бот для записи</strong>
+              @HarizmaBarberBot<br>
+              <span style="font-size: 13px; color: var(--text-muted);">Нажмите кнопку ниже</span>
+            </div>
+          </div>
+
+          <div class="social-links reveal">
+            <a href="https://www.instagram.com/bahtiyorbarber25" target="_blank" class="social-link" title="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://t.me/HarizmaBarberBot" target="_blank" class="social-link" title="Telegram Bot">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-buttons" style="margin-top: 32px; justify-content: flex-start;">
+            <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary">
+              Записаться через бота
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <div class="map-container">
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=50.309959,53.323868&z=17&pt=50.309959,53.323868,pm2dol&text=Самара, Маршала Устинова 40А" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2026 <span>Харизма</span> | Барбершоп в Самаре</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
