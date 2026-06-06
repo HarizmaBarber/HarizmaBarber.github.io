@@ -35,8 +35,8 @@
 
   <section class="page-header">
     <div class="container">
-      <h1>Контакты</h1>
-      <p>Как нас найти</p>
+      <h1 data-i18n="page_contacts_title">Контакты</h1>
+      <p data-i18n="page_contacts_sub">Как нас найти</p>
     </div>
   </section>
 
@@ -44,12 +44,12 @@
     <div class="container">
       <div class="contacts-grid">
         <div class="contacts-info">
-          <h3>Свяжитесь <span>с нами</span></h3>
+          <h3 data-i18n="contacts_heading">Свяжитесь <span>с нами</span></h3>
 
           <div class="contact-item reveal">
             <div class="contact-icon">📍</div>
             <div class="contact-text">
-              <strong>Адрес</strong>
+              <strong data-i18n="contacts_address_label">Адрес</strong>
               ул. Маршала Устинова, 40А, Самара
             </div>
           </div>
@@ -57,25 +57,25 @@
           <div class="contact-item reveal reveal-delay-1">
             <div class="contact-icon">⏰</div>
             <div class="contact-text">
-              <strong>Часы работы</strong>
-              Ежедневно 9:00 – 21:00
+              <strong data-i18n="contacts_hours_label">Часы работы</strong>
+              <span data-i18n="contacts_hours_val">Ежедневно 9:00 – 21:00</span>
             </div>
           </div>
 
           <div class="contact-item reveal reveal-delay-2">
             <div class="contact-icon">✂</div>
             <div class="contact-text">
-              <strong>Мастер</strong>
-              Баходир
+              <strong data-i18n="contacts_master_label">Мастер</strong>
+              <span data-i18n="contacts_master_val">Баходир</span>
             </div>
           </div>
 
           <div class="contact-item reveal reveal-delay-3">
             <div class="contact-icon">📱</div>
             <div class="contact-text">
-              <strong>Telegram бот для записи</strong>
+              <strong data-i18n="contacts_bot_label">Telegram бот для записи</strong>
               @HarizmaBarberBot<br>
-              <span style="font-size: 13px; color: var(--text-muted);">Нажмите кнопку ниже</span>
+              <span style="font-size: 13px; color: var(--text-muted);" data-i18n="contacts_bot_hint">Нажмите кнопку ниже</span>
             </div>
           </div>
 
@@ -96,7 +96,7 @@
           </div>
 
           <div class="hero-buttons" style="margin-top: 32px; justify-content: flex-start;">
-            <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary">
+            <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary" data-i18n="contacts_btn_book">
               Записаться через бота
             </a>
           </div>
@@ -113,10 +113,11 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="footer-text">© 2026 <span>Харизма</span> | Барбершоп в Самаре</p>
+      <p class="footer-text">© 2026 <span>Харизма</span> | <span data-i18n="footer">Барбершоп в Самаре</span></p>
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

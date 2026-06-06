@@ -36,18 +36,18 @@
   <section class="hero">
     <div class="hero-content">
       <div class="hero-icon">✂</div>
-      <p class="hero-label">Барбершоп в Самаре</p>
+      <p class="hero-label" data-i18n="hero_label">Барбершоп в Самаре</p>
       <h1 class="hero-title"><span>Харизма</span></h1>
       <p class="hero-subtitle">ул. Маршала Устинова, 40А, Самара</p>
       <p class="hero-address">Telegram: @HarizmaBarberBot</p>
-      <p class="hero-hours">Ежедневно 9:00 – 21:00</p>
+      <p class="hero-hours" data-i18n="hero_hours">Ежедневно 9:00 – 21:00</p>
       <div class="hero-buttons">
-        <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary">Записаться</a>
-        <a href="services.html" class="btn btn-secondary">Услуги и цены</a>
+        <a href="https://t.me/HarizmaBarberBot" target="_blank" class="btn btn-primary" data-i18n="hero_btn_book">Записаться</a>
+        <a href="services.html" class="btn btn-secondary" data-i18n="hero_btn_services">Услуги и цены</a>
       </div>
     </div>
     <div class="scroll-indicator">
-      <span>Листайте</span>
+      <span data-i18n="scroll_text">Листайте</span>
       <div class="scroll-line"></div>
     </div>
   </section>
@@ -58,19 +58,19 @@
         <div class="stat-item reveal">
           <div class="stat-icon">⭐</div>
           <div class="stat-number" data-target="1000" data-suffix="+">0</div>
-          <div class="stat-label">Положительных отзывов</div>
+          <div class="stat-label" data-i18n="stat_reviews">Положительных отзывов</div>
           <div class="stat-sparkle"></div>
         </div>
         <div class="stat-item reveal reveal-delay-1">
           <div class="stat-icon">📅</div>
           <div class="stat-number" data-target="5" data-suffix=" лет">0</div>
-          <div class="stat-label">Успешной работы</div>
+          <div class="stat-label" data-i18n="stat_years">Успешной работы</div>
           <div class="stat-sparkle"></div>
         </div>
         <div class="stat-item reveal reveal-delay-2">
           <div class="stat-icon">🚶</div>
-          <div class="stat-text">Без записи</div>
-          <div class="stat-label">Приходите в любое время</div>
+          <div class="stat-text" data-i18n="stat_walkin">Без записи</div>
+          <div class="stat-label" data-i18n="stat_walkin_sub">Приходите в любое время</div>
           <div class="stat-sparkle"></div>
         </div>
       </div>
@@ -80,12 +80,12 @@
   <section class="section">
     <div class="container">
       <div class="about-text reveal" style="max-width: 800px; margin: 0 auto; text-align: center;">
-        <h2>Добро <span>пожаловать</span></h2>
-        <p>
+        <h2 data-i18n="about_title">Добро <span>пожаловать</span></h2>
+        <p data-i18n="about_p1">
           Харизма — это не просто барбершоп. Это место, где мужская стрижка становится искусством.
           Мы знаем, как подчеркнуть ваш стиль и создать образ, который будет работать на вас.
         </p>
-        <p>
+        <p data-i18n="about_p2">
           За плечами мастера Баходира — годы опыта и сотни довольных клиентов.
           Индивидуальный подход к каждому, качественные материалы и инструменты,
           атмосфера настоящего мужского клуба.
@@ -93,19 +93,19 @@
         <div class="about-features" style="justify-content: center;">
           <div class="about-feature">
             <span class="icon"></span>
-            Индивидуальный подход
+            <span data-i18n="about_feat1">Индивидуальный подход</span>
           </div>
           <div class="about-feature">
             <span class="icon"></span>
-            Профессиональные средства
+            <span data-i18n="about_feat2">Профессиональные средства</span>
           </div>
           <div class="about-feature">
             <span class="icon"></span>
-            Удобное расположение
+            <span data-i18n="about_feat3">Удобное расположение</span>
           </div>
           <div class="about-feature">
             <span class="icon"></span>
-            Работаем без выходных
+            <span data-i18n="about_feat4">Работаем без выходных</span>
           </div>
         </div>
       </div>
@@ -114,14 +114,14 @@
 
   <section class="section reviews-section">
     <div class="container">
-      <h2 class="section-title reveal">Отзывы <span>клиентов</span></h2>
+      <h2 class="section-title reveal" data-i18n="reviews_title">Отзывы <span>клиентов</span></h2>
       <div class="reviews-grid" id="reviewsGrid"></div>
 
       <div class="review-form reveal">
-        <h3>Оставить отзыв</h3>
+        <h3 data-i18n="review_form_title">Оставить отзыв</h3>
         <form id="reviewForm">
           <div class="form-row">
-            <input type="text" id="reviewName" placeholder="Ваше имя" required>
+            <input type="text" id="reviewName" data-i18n="review_form_name" data-i18n-attr="placeholder" placeholder="Ваше имя" required>
             <select id="reviewRating">
               <option value="5">★★★★★</option>
               <option value="4">★★★★☆</option>
@@ -130,20 +130,21 @@
               <option value="1">★☆☆☆☆</option>
             </select>
           </div>
-          <textarea id="reviewText" placeholder="Напишите отзыв..." rows="3" required></textarea>
-          <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+          <textarea id="reviewText" data-i18n="review_form_text" data-i18n-attr="placeholder" placeholder="Напишите отзыв..." rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary" data-i18n="review_form_submit">Отправить отзыв</button>
         </form>
-        <div class="review-form-success" id="reviewSuccess">Спасибо! Ваш отзыв отправлен.</div>
+        <div class="review-form-success" id="reviewSuccess" data-i18n="review_form_success">Спасибо! Ваш отзыв отправлен.</div>
       </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p class="footer-text">© 2026 <span>Харизма</span> | Барбершоп в Самаре</p>
+      <p class="footer-text">© 2026 <span>Харизма</span> | <span data-i18n="footer">Барбершоп в Самаре</span></p>
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
